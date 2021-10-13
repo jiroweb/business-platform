@@ -1,0 +1,106 @@
+@import './normalize',
+'./flex-box',
+'./rem',
+'./icons',
+'./root',
+'./shared',
+
+// modules
+'../modules/container',
+'../modules/buttons',
+'../modules/checked',
+'../modules/date-time-range-picker',
+'../modules/date',
+'../modules/dropdown-select',
+'../modules/input-textarea',
+'../modules/main-section',
+'../modules/modals-blocks',
+'../modules/pagination',
+'../modules/scrollbar',
+'../modules/table',
+'../modules/cursors';
+
+
+
+// //  html
+
+// html {
+//    background-color: var(--body_bg);
+//    font-size: rem(15px);
+// }
+
+
+
+
+
+
+// // section-title -- START
+// .section-title {
+//    font: rem(20px) $Medium;
+//    line-height: rem(23px);
+//    color: var(--default_dark);
+
+//    &__activ {
+//       color: var(--primary_color_green-dark);
+//    }
+// }
+
+// // section-title -- END
+
+
+// // line-clamp -- START
+// .line-clamp {
+//    display: -webkit-box;
+//    overflow: hidden;
+//    text-overflow: ellipsis;
+//    /*! autoprefixer: off */
+//    -webkit-box-orient: vertical;
+
+//    /*! autoprefixer: off */
+
+//    &_2 {
+//       -webkit-line-clamp: 2;
+//    }
+
+//    &_3 {
+
+//       -webkit-line-clamp: 3;
+//    }
+// }
+
+// // line-clamp -- END
+
+
+// // overflow-hidden -- START
+// .overflow-hidden,
+// .modal-overflow {
+//    overflow: hidden;
+// }
+
+// // overflow-hidden -- END
+
+// // display block -- START
+// .d-block {
+//    display: block;
+// }
+
+// .d-none {
+//    display: none;
+// }
+
+// // display block -- END
+
+
+
+
+// @import // modules
+// '../modules/buttons',
+// '../modules/checked',
+// '../modules/input-textarea',
+// '../modules/pagination',
+// '../modules/dropdown-select',
+// '../modules/scrollbar',
+// '../modules/date-time-range-picker',
+// '../modules/modals-blocks',
+// '../modules/table',
+// '../modules/main-section';

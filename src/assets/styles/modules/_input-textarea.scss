@@ -1,0 +1,50 @@
+.input {
+    width: 100%;
+    color: var(--default_dark);
+    border: 1px solid #E1E1E1;
+    background-color: var(--neutral_color_white);
+    border-radius: var(--border-radius);
+    font: rem(14px) $Regular;
+    padding: 10px 15px;
+
+    &::placeholder {
+        opacity: .37;
+    }
+
+    &:focus {
+        border: 1px solid var(--primary_color_dark);
+    }
+
+    &:hover:not(:disabled) {
+        border: 1px solid var(--primary_color_dark);
+    }
+
+    &.disabled {
+        color: #AFB6BD;
+        border: 1px solid #F0F1F2;
+        background-color: #F7F8F9;
+    }
+
+    &.required {
+        border: 1px solid #f02626;
+    }
+
+    &.border-0 {
+        border: 0;
+
+        &:hover {
+            border: transparent;
+        }
+
+        &:focus {
+            border: 0;
+            outline: none;
+        }
+    }
+}
+
+.input-calendar {
+    font: rem(14px) $Medium;
+    color: var(--default_dark);
+    padding-left: 25px;
+}

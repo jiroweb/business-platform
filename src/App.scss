@@ -1,3 +1,5 @@
+$color: red;
+
 .App {
   text-align: center;
 }
@@ -25,13 +27,14 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: $color;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
